@@ -1,16 +1,56 @@
-# React + Vite
+# Single price grid component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This challenge is to build out the pricing component to the designs provided and get it looking as close to the design as possible. 
 
-Currently, two official plugins are available:
+Users should be able to:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- View the optimal layout for the component depending on their device's screen size
+- See a hover state on desktop for the Sign Up call-to-action
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## About the project 
 
-## Expanding the ESLint configuration
+This project was created using `npm create vite@latest` with the **React + JavaScript** option.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+--- 
+
+## Technology
+
+### HTML
+- Semantic HTML5
+
+### CSS
+- Custom CSS
+- Flexbox & Grid
+- Mobile-first responsive design
+
+### Tools
+- Vite
+- Git & GitHub 
+
+---
+
+## How to run this project
+
+To run this project locally, follow these steps:
+
+1) Clone the repository.
+`git clone`
+
+2) Navigate to the project folder.
+`cd recipe-page`
+
+3) Install dependencies. 
+`npm install`
+
+4) Start the development server. 
+`npm run dev`
+
+5) Then open the local server link in your browser.
+
+---
+
+## Preview
+
+![design](./src/design/desktop-design.jpg)
