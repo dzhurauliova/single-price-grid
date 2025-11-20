@@ -4,7 +4,7 @@ export const SinglePrice = () => {
     return(
         <>
             <section className='join'>
-                <h1>Join our community</h1>
+                <h1 className='join-title'>Join our community</h1>
 
                 <h2 className='join-name'>30-day, hassle-free money back guarantee</h2>
 

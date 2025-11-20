@@ -1,3 +1,24 @@
+.join {
+    background-color: white;
+    padding: 50px;
+}
+
+.join-title {
+    color: var(--teal500);
+    font-weight: 700;
+}
+
+.join-name {
+    color: var(--green400);
+    margin-block: 32px;
+    padding-block: 20px;
+}
+
+.join-text {
+    color: var(--gray400);
+    line-height: 150%;
+}
+
 
 
 @media(min-width: 650px) {

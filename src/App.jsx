@@ -3,9 +3,9 @@ import { SinglePrice } from './component'
 
 function App() {
   return (
-    <>
+    <div className='container'>
       < SinglePrice />
-    </>
+    </div>
   )
 }
 
