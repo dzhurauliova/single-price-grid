@@ -17,26 +17,26 @@ export const SinglePrice = () => {
                 <h2 className='subscription-name'>Monthly Subscription</h2>
 
                 <div className='subscription-text__price'>
-                    <p >&dollar;29</p> 
-                    <p>per month</p>
+                    <p className='price'>$ 29</p> 
+                    <p className='per-month'>per month</p>
                 </div>
                 
 
-                <p>Full access for less than &dollar;1 a day</p>
+                <p className='subscription-text'>Full access for less than $1 a day</p>
 
-                <button>Sign Up</button>
+                <button className='subscription-button'>Sign Up</button>
             </section>
             <section className='why'>
                 <h2 className='why-name'>Why Us</h2>
 
                 <p className='why-text'>
-                    Tutorials by industry experts
-                    Peer &amp; expert code review
-                    Coding exercises
-                    Access to our GitHub repos
-                    Community forum
-                    Flashcard decks
-                    New videos every week
+                    Tutorials by industry experts <br/>
+                    Peer & expert code review <br/>
+                    Coding exercises <br/>
+                    Access to our GitHub repos <br/>
+                    Community forum <br/>
+                    Flashcard decks <br/>
+                    New videos every week <br/>
                 </p>
             </section>
         </>
