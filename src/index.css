@@ -4,6 +4,7 @@ html { box-sizing: border-box; }
 :root {
   /* Primary colors */
   --teal500: hsl(179, 62%, 43%);
+  --teal600: hsl(179, 66%, 52%);
   --green400: hsl(71, 73%, 54%);
 
   /* Neutral colors */
@@ -17,10 +18,11 @@ body {
   background-color: var(--teal100);
 
   /* Font */
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Karla", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  
 }
 
 

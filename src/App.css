@@ -9,5 +9,9 @@
 @media(min-width: 650px) {
     .container {
         margin-block: 50px;
+
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
     }
 }

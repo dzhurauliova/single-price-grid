@@ -18,13 +18,20 @@
 .join-text {
     color: var(--gray400);
     line-height: 150%;
+    font-weight: 400;
 }
 
+/* **************************************** */
 
 .subscription {
     background-color: var(--teal500);
     padding: 50px;
-    color: var(--teal100)
+    color: var(--teal100);
+
+}
+
+.subscription-name {
+    font-weight: 700;
 }
 
 .subscription-button {
@@ -39,10 +46,44 @@
     margin-top: 35px;
 }
 
+.subscription-text__price {
+    display: flex;
+    gap: 30px;
+
+    align-items: center;
+}
+
+.price {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/* **************************************** */
+
+.why {
+    background-color: var(--teal600);
+    padding: 50px;
+    color: var(--teal100);
+
+}
+
 
 
 
 
 @media(min-width: 650px) {
+    .join {
+        grid-column: 1 / 3;
+        grid-row: 1;
+    }
 
+    .subscription {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .why {
+        grid-column: 2;
+        grid-row: 2;
+    }
 }
