@@ -21,7 +21,6 @@ export const SinglePrice = () => {
                     <p className='per-month'>per month</p>
                 </div>
                 
-
                 <p className='subscription-text'>Full access for less than $1 a day</p>
 
                 <button className='subscription-button'>Sign Up</button>

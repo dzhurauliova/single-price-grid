@@ -32,6 +32,7 @@
 
 .subscription-name {
     font-weight: 700;
+    margin-top: 0;
 }
 
 .subscription-button {
@@ -43,7 +44,7 @@
     font-weight: bold;
     border-radius: 10px;
     border-color: var(--green400);
-    margin-top: 35px;
+    margin-block: 35px;
 }
 
 .subscription-text__price {
@@ -56,6 +57,7 @@
 .price {
     font-size: 35px;
     font-weight: 700;
+    margin: 0;
 }
 
 /* **************************************** */
@@ -64,10 +66,15 @@
     background-color: var(--teal600);
     padding: 50px;
     color: var(--teal100);
-
 }
 
+.why-name {
+    margin-top: 0;
+}
 
+.why-text {
+    line-height: 150%;
+}
 
 
 
